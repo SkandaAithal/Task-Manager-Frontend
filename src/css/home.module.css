@@ -1,0 +1,25 @@
+.card {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  margin-block: 5rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 3.5rem;
+  color: rgb(77, 4, 145);
+  text-transform: capitalize;
+}
+
+.card p {
+  font-size: 2rem;
+  color: chocolate;
+}
+.card button {
+  margin: auto;
+  padding: 0.75rem 1rem;
+}

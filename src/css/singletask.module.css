@@ -1,0 +1,30 @@
+.wrapper {
+  display: grid;
+  height: 80vh;
+  place-content: center;
+}
+.card {
+  padding: 1.75rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.div h1 {
+  font-size: 2rem;
+  color: chocolate;
+  text-decoration: underline;
+}
+
+.div p {
+  font-size: 1.75rem;
+  color: black;
+  font-weight: bold;
+}
+#task {
+  color: rgb(74, 12, 132) !important;
+  text-transform: capitalize;
+}

@@ -1,0 +1,14 @@
+.navbar {
+  padding: 1rem;
+  background-color: rgb(45, 45, 156);
+
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
